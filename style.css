@@ -1,0 +1,52 @@
+.text-shop {
+    color: rgb(252, 143, 54)!important;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: black;
+    padding: 25px;
+}
+#footer a {
+    color:white;
+}
+
+main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+   /*filter: grayscale(50%); to put a gray filter so you can add text on top*/
+}
+
+#carousel { 
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+.btn-veggies {
+    background-color:  rgb(252, 143, 54);
+    color: white;
+}
+
+.btn-veggies:hover {
+    background-color:  rgb(252, 143, 54);
+    color: white;
+}
+
+.mgn {
+    padding: 0;
+    margin: 0;
+}
